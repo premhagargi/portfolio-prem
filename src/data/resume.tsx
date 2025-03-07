@@ -8,7 +8,7 @@ export const DATA = {
   location: "Mumbai, MH, IN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Full-stack developer 🚀. I build scalable, high-performance web apps with seamless user experiences.",
   summary:
     "Full-stack developer with expertise in Angular, React, Node.js, and MongoDB, building scalable and high-performance web applications. Skilled in optimizing frontend performance, developing RESTful APIs, and ensuring seamless user experiences. Passionate about problem-solving and enhancing software efficiency.",
   avatarUrl: "Prem Hagaragi.jpg",
