@@ -114,6 +114,32 @@ export const DATA = {
         "",
     },
     {
+      title: "Ad Chariot",
+      href: "https://ad-chariot.netlify.app/aboutus",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "This is one of my freelance project that I worked on, for a client. It is a website for a company that provides services for advertisement and creative solutions for local businesses.",
+      technologies: [
+        "JavaScript",
+        "React",
+        "TailwindCSS",
+        "MagicUI",
+        "ShadCN",
+        "Netlify",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ad-chariot.netlify.app/aboutus",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/image1.png",
+      video:
+        "",
+    },
+    {
       title: "Magic UI",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
