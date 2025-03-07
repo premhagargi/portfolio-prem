@@ -65,11 +65,11 @@ export const DATA = {
       badges: [],
       location: "Mumbai, MH, IN",
       title: "Full Stack Developer",
-      logoUrl: "/mitremedia.png",
+      logoUrl: "/minsyst.png",
       start: "August 2023",
       end: "Present",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Developing scalable web applications using Angular, Node.js, and MongoDB. Built and optimized UI/UX, integrated APIs, and enhanced system performance.",
     },
   ],
   education: [
@@ -78,7 +78,7 @@ export const DATA = {
       school: "Gogte Institute of Technology",
       href: "https://git.edu/",
       degree: "Bachelor's of Engineering (B.E)",
-      logoUrl: "/laurier.png",
+      logoUrl: "/klsgit.png",
       start: "2019",
       end: "2023",
     },
