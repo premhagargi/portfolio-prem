@@ -115,7 +115,7 @@ export const DATA = {
     },
     {
       title: "Ad Chariot",
-      href: "https://ad-chariot.netlify.app/aboutus",
+      href: "https://adchariot.in/aboutus",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
