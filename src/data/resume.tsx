@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full-stack developer 🚀. I build scalable, high-performance web apps with seamless user experiences.",
   summary:
-    "Full-stack developer with expertise in Angular, React, Node.js, and MongoDB, building scalable and high-performance web applications. Skilled in optimizing frontend performance, developing RESTful APIs, and ensuring seamless user experiences. Passionate about problem-solving and enhancing software efficiency.",
+    "Full-stack developer with expertise in Angular, Next.js, Node.js, and MongoDB, PostgreSQL, building scalable and high-performance web applications. Skilled in optimizing frontend performance, developing RESTful APIs, and ensuring seamless user experiences. Passionate about problem-solving and enhancing software efficiency.",
   avatarUrl: "Prem Hagaragi.jpg",
   skills: [
     "React",
@@ -85,6 +85,32 @@ export const DATA = {
 
   ],
   projects: [
+       {
+      title: "Kollab",
+      href: "https://kolllab.netlify.app/",
+      dates: "May 2025 - Ongoing",
+      active: true,
+      description:
+"Kollab is task management built for solopreneurs — powered by AI, focused on action, not admin.",
+      technologies: [
+        "Next.js",
+        "React",
+        "Cloud Firestore",
+        "Gemini API",
+        "TailwindCSS",
+        "Netlify",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://kolllab.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/Kollab-1752842317920.mp4",
+    },
     {
       title: "Smart Recruit",
       href: "https://smartrecruit.vercel.app ",
@@ -98,7 +124,7 @@ export const DATA = {
         "React",
         "Node.js",
         "Express",
-        "OpenAI",
+        "OpenAI API",
         "TailwindCSS",
         "Vercel",
       ],
@@ -113,9 +139,33 @@ export const DATA = {
       video:
         "",
     },
+          {
+      title: "Terminal Styled Portfolio",
+      href: "",
+      dates: "Jun 2025 - Jun 2025",
+      active: true,
+      description:
+"Personal portfolio website styled like a terminal, showcasing my skills and projects.",
+      technologies: [
+        "Vite",
+        "React",
+        "TailwindCSS",
+        "Netlify",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://terminalport.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/Terminal-1752841522827.mp4",
+    },
     {
       title: "Ad Chariot",
-      href: "https://adchariot.in/aboutus",
+      href: "https://adchariot.in/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -131,7 +181,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://ad-chariot.netlify.app/aboutus",
+          href: "https://adchariot.in",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -139,37 +189,31 @@ export const DATA = {
       video:
         "",
     },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+ {
+      title: "UK Venture",
+      href: "https://ukventure.co.in",
+      dates: "May 2025 - May 2025",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "This is one of my freelance project that I worked on, for a client. It is a website for a company that provides services for advertisement and creative solutions for local businesses.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "JavaScript",
+        "React",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "MagicUI",
+        "ShadCN",
+        "Netlify",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://ukventure.co,in",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video:
+        "UK Venture-1752841785870.mp4",
     },
   ],
   hackathons: [
