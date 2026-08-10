@@ -79,7 +79,27 @@ export function ProjectCard({
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">
-          <CardTitle className="mt-1 text-base">{title}</CardTitle>
+          <div className="flex items-center justify-between gap-2">
+            <CardTitle className="mt-1 text-base">{title}</CardTitle>
+            {href && (
+              <Link href={href} target="_blank" rel="noopener noreferrer">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="size-4 text-foreground cursor-pointer hover:opacity-80 transition-opacity"
+                >
+                  <path
+                    d="M5 12V6C5 5.44772 5.44772 5 6 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H12M8.11111 12H12M12 12V15.8889M12 12L5 19"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </Link>
+            )}
+          </div>
           <time className="font-sans text-xs">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
@@ -104,31 +124,22 @@ export function ProjectCard({
           </div>
         )}
       </CardContent>
-      <CardFooter className="px-2 pb-2">
-        {links && links.length > 0 && (
+      {links && links.filter((link) => link.type !== "Website").length > 0 && (
+        <CardFooter className="px-2 pb-2">
           <div className="flex flex-row flex-wrap items-start gap-1">
-            {links?.map((link, idx) => (
-              <Link href={link?.href} key={idx} target="_blank">
-                <Badge key={idx} className="flex gap-1 px-1.5 py-1 text-[10px]">
-                  {link.type === "Website" ? null : link.icon}
-                  {link.type === "Website" ? "Open" : link.type}
-                  {link.type === "Website" && (
-                    <svg
-                      viewBox="0 0 1024 1024"
-                      className="size-3"
-                      fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M768 256H353.6a32 32 0 110-64H800a32 32 0 0132 32v448a32 32 0 01-64 0V256z" />
-                      <path d="M777.344 201.344a32 32 0 0145.312 45.312l-544 544a32 32 0 01-45.312-45.312l544-544z" />
-                    </svg>
-                  )}
-                </Badge>
-              </Link>
-            ))}
+            {links
+              ?.filter((link) => link.type !== "Website")
+              .map((link, idx) => (
+                <Link href={link?.href} key={idx} target="_blank">
+                  <Badge key={idx} className="flex gap-1 px-1.5 py-1 text-[10px]">
+                    {link.icon}
+                    {link.type}
+                  </Badge>
+                </Link>
+              ))}
           </div>
-        )}
-      </CardFooter>
+        </CardFooter>
+      )}
     </Card>
   );
 }
