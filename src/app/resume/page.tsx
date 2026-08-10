@@ -111,13 +111,13 @@ export default function ResumePage() {
               </a>
               <span className="text-zinc-300 dark:text-zinc-700 print:text-[#9AA0A6]">&bull;</span>
               <a
-                href="https://premhagaragi.app/"
+                href="https://premhagaragi.site/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 hover:text-blue-600 dark:hover:text-blue-400 transition-colors print:no-underline print:hover:text-black"
               >
                 <Globe className="size-3.5 print:size-3" />
-                <span>premhagaragi.app</span>
+                <span>premhagaragi.site</span>
               </a>
               <span className="text-zinc-300 dark:text-zinc-700 print:text-[#9AA0A6]">&bull;</span>
               <a
