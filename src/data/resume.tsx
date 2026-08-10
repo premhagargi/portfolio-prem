@@ -8,9 +8,9 @@ export const DATA = {
   location: "Mumbai, MH, IN",
   locationLink: "https://www.google.com/maps/place/Mumbai",
   description:
-    "Software Engineer specializing in Full-Stack Product Development, Microservices, React, Node.js, Python, and Cloud technologies.",
+    "Software Engineer | Full-Stack Product Development • Microservices • React • Node.js • Python • Cloud",
   summary:
-    "Software Engineer with 3+ years of product development experience designing and building full-stack applications with microservice architectures. Codes across Node.js/TypeScript, Python, and React — applying OOP, SOLID principles, and SOA patterns to deliver maintainable, testable systems. Builds reusable component libraries shared across multiple products, follows test-driven development practices, and deploys through automated CI/CD pipelines to cloud infrastructure. Bridges product management, UX design, and engineering to translate requirements into robust software, leveraging AI-assisted development workflows (Copilot) to accelerate SDLC execution.",
+    "Software Engineer with 3+ years of product development experience designing and building full-stack applications with microservice architectures. Expert in building AI-native workflows, including Retrieval-Augmented Generation (RAG) pipelines, LLM agents, and vector search integration. Codes across Node.js/TypeScript, Python, and React — applying OOP, SOLID principles, and SOA patterns to deliver maintainable, testable systems. Builds reusable component libraries shared across multiple products, follows test-driven development (TDD) practices, and deploys through automated CI/CD pipelines to cloud infrastructure (AWS/Azure). Bridges product management, UX design, and engineering to translate requirements into robust software, leveraging AI-assisted workflows (Copilot) to accelerate SDLC execution.",
   avatarUrl: "Prem Hagaragi.jpg",
   skills: [
     "TypeScript",
@@ -132,7 +132,7 @@ export const DATA = {
     {
       title: "Bloort AI",
       href: "https://www.bloort.ai/",
-      dates: "May 2026 - Present",
+      dates: "Nov 2025 - Mar 2026",
       active: true,
       description:
         "Designed and built Bloort AI, an enterprise-grade SaaS platform enabling agencies to build, customize, and embed custom-branded AI chatbots trained on client websites using Retrieval-Augmented Generation (RAG). Created automated crawling pipelines to ingest site data, custom widget styling controls, multi-language query resolution, and live agent handoffs.",
@@ -142,7 +142,7 @@ export const DATA = {
         "TypeScript",
         "Node.js",
         "FastAPI",
-        "Python",
+        "LangChain",
         "RAG",
         "Pinecone",
         "OpenAI API",
@@ -155,7 +155,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/bloort.jpg",
+      image: "/bloort.png",
       video: "",
     },
     {
@@ -183,7 +183,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/market_map_maker.jpg",
+      image: "/market_map_maker.png",
       video: "",
     },
     {
@@ -210,7 +210,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/nexus.jpg",
+      image: "/nexus.png",
       video: "",
     },
     {
@@ -236,13 +236,13 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/archforge.jpg",
+      image: "/archforge.png",
       video: "",
     },
     {
       title: "FloodGate",
       href: "https://floodgate-rl.netlify.app/",
-      dates: "Sep 2025 - Oct 2025",
+      dates: "May 2026 - May 2026",
       active: true,
       description:
         "Published a production-grade Node.js package on npm (floodgate-rl) handling high-concurrency traffic with sliding-window and token-bucket algorithms backed by atomic Redis Lua scripts; applied Strategy and Template Method patterns for pluggable algorithm selection; wrote comprehensive automated test suites following TDD practices.",
@@ -267,13 +267,13 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/floodgate.jpg",
+      image: "/floodgate.png",
       video: "",
     },
     {
       title: "Kollab",
       href: "https://kolllab.netlify.app/",
-      dates: "May 2025 - Ongoing",
+      dates: "May 2025 - Jun 2025",
       active: true,
       description:
         "Kollab is task management built for solopreneurs — powered by AI, focused on action, not admin.",
@@ -367,7 +367,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/image1.png",
+      image: "/adchariot.png",
       video: "",
     },
     {
