@@ -8,7 +8,7 @@ export const DATA = {
   location: "Mumbai, MH, IN",
   locationLink: "https://www.google.com/maps/place/Mumbai",
   description:
-    "Software Engineer | Full-Stack Product Development • Microservices • React • Node.js • Python • Cloud",
+    "Software Engineer | Full-Stack & Product Engineering | React • Next.js • Node.js • TypeScript • AI",
   summary:
     "Software Engineer with 3+ years of product development experience designing and building full-stack applications with microservice architectures. Expert in building AI-native workflows, including Retrieval-Augmented Generation (RAG) pipelines, LLM agents, and vector search integration. Codes across Node.js/TypeScript, Python, and React — applying OOP, SOLID principles, and SOA patterns to deliver maintainable, testable systems. Builds reusable component libraries shared across multiple products, follows test-driven development (TDD) practices, and deploys through automated CI/CD pipelines to cloud infrastructure (AWS/Azure). Bridges product management, UX design, and engineering to translate requirements into robust software, leveraging AI-assisted workflows (Copilot) to accelerate SDLC execution.",
   avatarUrl: "Prem Hagaragi.jpg",
@@ -187,59 +187,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Nexus AI",
-      href: "https://nexus-ai-mu-six.vercel.app/",
-      dates: "Jan 2026 - Mar 2026",
-      active: true,
-      description:
-        "Designed and built Nexus AI, an AI Knowledge Workspace and virtual data room for enterprise teams. Upload documents, PDFs, and codebases to index them in a context-ranked vector store, query them through context-aware RAG interfaces with full citations, and convert insights into tasks, workflows, and automated actions. Deployed isolated workspaces, full role-based access controls, and multi-tenant scalability.",
-      technologies: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "TailwindCSS",
-        "Node.js",
-        "Vector DB",
-        "RAG",
-        "LLMs",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://nexus-ai-mu-six.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/nexus.png",
-      video: "",
-    },
-    {
-      title: "ArchForge",
-      href: "https://archforge.netlify.app/",
-      dates: "Nov 2025 - Jan 2026",
-      active: true,
-      description:
-        "Built an open-source full-stack React 19 + TypeScript + Next.js platform with drag-and-drop interactive canvas (React Flow, Zustand) — designed with SOLID principles, dependency injection, and a reusable component architecture enabling real-time state synchronization and auto-generated documentation across product modules.",
-      technologies: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "React Flow",
-        "Zustand",
-        "TailwindCSS",
-        "SOLID",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://archforge.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/archforge.png",
-      video: "",
-    },
-    {
       title: "FloodGate",
       href: "https://floodgate-rl.netlify.app/",
       dates: "May 2026 - May 2026",
@@ -268,6 +215,61 @@ export const DATA = {
         },
       ],
       image: "/floodgate.png",
+      video: "",
+      imageClassName: "object-contain bg-zinc-950 object-center",
+    },
+    {
+      title: "Nexus AI",
+      href: "https://nexus-ai-mu-six.vercel.app/",
+      dates: "Jan 2026 - Mar 2026",
+      active: true,
+      description:
+        "Designed and built Nexus AI, an AI Knowledge Workspace and virtual data room for enterprise teams. Upload documents, PDFs, and codebases to index them in a context-ranked vector store, query them through context-aware RAG interfaces with full citations, and convert insights into tasks, workflows, and automated actions. Deployed isolated workspaces, full role-based access controls, and multi-tenant scalability.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Node.js",
+        "Vector DB",
+        "RAG",
+        "LLMs",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nexus-ai-mu-six.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/nexus.png",
+      video: "",
+      imageClassName: "object-contain bg-zinc-950 object-center",
+    },
+    {
+      title: "ArchForge",
+      href: "https://archforge.netlify.app/",
+      dates: "Nov 2025 - Jan 2026",
+      active: true,
+      description:
+        "Built an open-source full-stack React 19 + TypeScript + Next.js platform with drag-and-drop interactive canvas (React Flow, Zustand) — designed with SOLID principles, dependency injection, and a reusable component architecture enabling real-time state synchronization and auto-generated documentation across product modules.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "React Flow",
+        "Zustand",
+        "TailwindCSS",
+        "SOLID",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://archforge.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/archforge.png",
       video: "",
     },
     {

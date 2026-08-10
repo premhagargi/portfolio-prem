@@ -26,6 +26,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  imageClassName?: string;
 }
 
 export function ProjectCard({
@@ -39,6 +40,7 @@ export function ProjectCard({
   video,
   links,
   className,
+  imageClassName,
 }: Props) {
   return (
     <Card
@@ -66,7 +68,10 @@ export function ProjectCard({
             alt={title}
             width={500}
             height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
+            className={cn(
+              "h-40 w-full overflow-hidden object-cover object-top",
+              imageClassName
+            )}
           />
         )}
       </Link>
@@ -103,8 +108,19 @@ export function ProjectCard({
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
-                  {link.icon}
-                  {link.type === "Website" ? "Open ↗" : link.type}
+                  {link.type === "Website" ? null : link.icon}
+                  {link.type === "Website" ? "Open" : link.type}
+                  {link.type === "Website" && (
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      className="size-3"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M768 256H353.6a32 32 0 110-64H800a32 32 0 0132 32v448a32 32 0 01-64 0V256z" />
+                      <path d="M777.344 201.344a32 32 0 0145.312 45.312l-544 544a32 32 0 01-45.312-45.312l544-544z" />
+                    </svg>
+                  )}
                 </Badge>
               </Link>
             ))}
