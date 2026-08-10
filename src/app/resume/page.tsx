@@ -16,10 +16,6 @@ import {
 const BLUR_FADE_DELAY = 0.04;
 
 export default function ResumePage() {
-  const handlePrint = () => {
-    window.print();
-  };
-
   return (
     <main className="flex flex-col min-h-screen space-y-6 pb-20">
       {/* Custom print styles to override layouts and ensure 1-page fit */}
@@ -76,13 +72,14 @@ export default function ResumePage() {
           <ArrowLeft className="size-4 group-hover:-translate-x-0.5 transition-transform" />
           Back to Home
         </Link>
-        <button
-          onClick={handlePrint}
+        <a
+          href="/prem_hagaragi_resume.pdf"
+          download="Prem_Hagaragi_Resume.pdf"
           className="flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-lg text-sm font-medium shadow-sm transition-all hover:scale-[1.02] active:scale-[0.98]"
         >
           <Printer className="size-4" />
-          Download PDF / Print
-        </button>
+          Download PDF
+        </a>
       </div>
 
       {/* Resume Document Wrapper */}
