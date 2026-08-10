@@ -7,7 +7,7 @@ export const Icons = {
   email: (props: IconProps) => <MailIcon {...props} />,
   linkedin: (props: IconProps) => (
     <svg
-      viewBox="0 0 24 24"
+      viewBox="4.5 3 16 16.5"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
