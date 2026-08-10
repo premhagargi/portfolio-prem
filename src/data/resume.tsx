@@ -3,95 +3,280 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Prem Hagaragi",
-  initials: "DV",
-  url: "https://www.linkedin.com/in/premhagaragi/",
+  initials: "PH",
+  url: "https://premhagaragi.app",
   location: "Mumbai, MH, IN",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/Mumbai",
   description:
-    "Full-stack developer 🚀. I build scalable, high-performance web apps with seamless user experiences.",
+    "Software Engineer specializing in Full-Stack Product Development, Microservices, React, Node.js, Python, and Cloud technologies.",
   summary:
-    "Full-stack developer with expertise in Angular, Next.js, Node.js, and MongoDB, PostgreSQL, building scalable and high-performance web applications. Skilled in optimizing frontend performance, developing RESTful APIs, and ensuring seamless user experiences. Passionate about problem-solving and enhancing software efficiency.",
+    "Software Engineer with 3+ years of product development experience designing and building full-stack applications with microservice architectures. Codes across Node.js/TypeScript, Python, and React — applying OOP, SOLID principles, and SOA patterns to deliver maintainable, testable systems. Builds reusable component libraries shared across multiple products, follows test-driven development practices, and deploys through automated CI/CD pipelines to cloud infrastructure. Bridges product management, UX design, and engineering to translate requirements into robust software, leveraging AI-assisted development workflows (Copilot) to accelerate SDLC execution.",
   avatarUrl: "Prem Hagaragi.jpg",
   skills: [
-    "React",
-    "Angular",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Postgres",
-    "MongoDB",
+    "TypeScript",
+    "JavaScript (ES6+)",
     "Python",
-    "Restful APIs",
-    "Sass",
-    "AWS",
-    "Basic CI/CD",
+    "Node.js",
+    "NestJS",
+    "Express",
+    "FastAPI",
+    "RESTful APIs",
+    "React (18/19)",
+    "Next.js (App Router)",
+    "Angular",
+    "PostgreSQL",
+    "MySQL",
+    "Redis",
+    "Supabase",
+    "Prisma ORM",
+    "SQLAlchemy",
+    "AWS (EC2, S3, CloudFront)",
+    "Azure (App Services)",
+    "Docker",
+    "Git & CI/CD",
+    "SOLID & OOP",
+    "Design Patterns",
+    "Microservices & SOA",
+    "Domain-Driven Design",
+    "TDD (Vitest, Jest, Pytest)",
+    "GitHub Copilot",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "premhagaragi@gmail.com",
+    tel: "+91 84314 70494",
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/premhagargi",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/premhagaragi/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "https://www.linkedin.com/in/premhagaragi/",
+        url: "mailto:premhagaragi@gmail.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
 
   work: [
-
     {
-      company: "MinSysT Consulting Private Limited",
+      company: "MARQAIT AI",
+      href: "https://marqait.com/",
+      badges: [],
+      location: "Remote / Bengaluru, IN",
+      title: "Software Engineer",
+      logoUrl: "/atomic.png",
+      start: "April 2026",
+      end: "Present",
+      description:
+        "Architected a microservice-based SaaS platform end-to-end following SOA and domain-driven design principles. Developed backend services in Node.js/TypeScript (NestJS, Express) and Python (FastAPI) with RESTful APIs, integrated with PostgreSQL (Prisma ORM), MySQL, and Redis. Engineered a shared React 19 + TypeScript component library (Next.js App Router) consumed across multiple product surfaces using SOLID principles and patterns (Strategy, Observer, Factory). Practiced test-driven development using Vitest and React Testing Library (85%+ coverage). Partnered with UX designers and PMs to translate requirements into production UI.",
+    },
+    {
+      company: "Minsyst Consulting Private Limited",
       href: "https://minsyst.com/",
       badges: [],
       location: "Mumbai, MH, IN",
-      title: "Full Stack Developer",
+      title: "Software Developer",
       logoUrl: "/minsyst.png",
       start: "August 2023",
-      end: "Present",
+      end: "March 2026",
       description:
-        "Developing scalable web applications using Angular, Node.js, and MongoDB. Built and optimized UI/UX, integrated APIs, and enhanced system performance.",
+        "Built full-stack product features across multiple client engagements using React, Next.js, and Angular frontend with Node.js backend (contributing to 20% higher user engagement, 15% improved retention). Designed and optimized RESTful APIs, tuned PostgreSQL/MySQL queries, and implemented Repository and Adapter design patterns. Performed enterprise-scale debugging and production support, resolving critical issues via APM tools and reverse-engineering. Coordinated CI/CD pipelines using GitLab CI/CD, AWS (EC2, S3, CloudFront), and Azure App Services in an Agile (Scrum) setup.",
     },
   ],
   education: [
-
     {
       school: "Gogte Institute of Technology",
       href: "https://git.edu/",
-      degree: "Bachelor's of Engineering (B.E)",
+      degree: "Bachelor of Engineering (B.E) in Computer Science",
       logoUrl: "/klsgit.png",
       start: "2019",
       end: "2023",
+      description: "CGPA: 8.1/10. Key courses: Data Structures, Algorithms, OOP, Database Management Systems, Software Engineering.",
+      badges: ["CGPA: 8.1/10"],
     },
-
+    {
+      school: "LinkedIn Learning",
+      href: "https://www.linkedin.com/learning/",
+      degree: "Micro Front-End Architecture with React",
+      logoUrl: "/shopify.svg",
+      start: "2025",
+      end: "2025",
+      description: "Deep dive into building scalable micro frontend applications using React, module federation, and federated state management.",
+      badges: [],
+    },
+    {
+      school: "SimpliLearn",
+      href: "https://www.simplilearn.com/",
+      degree: "CI/CD for Beginners",
+      logoUrl: "/buildspace.jpg",
+      start: "2025",
+      end: "2025",
+      description: "Learned foundations of continuous integration and continuous deployment pipelines using GitHub Actions, GitLab CI/CD, and Docker.",
+      badges: [],
+    },
   ],
   projects: [
-       {
+    {
+      title: "Bloort AI",
+      href: "https://www.bloort.ai/",
+      dates: "May 2026 - Present",
+      active: true,
+      description:
+        "Designed and built Bloort AI, an enterprise-grade SaaS platform enabling agencies to build, customize, and embed custom-branded AI chatbots trained on client websites using Retrieval-Augmented Generation (RAG). Created automated crawling pipelines to ingest site data, custom widget styling controls, multi-language query resolution, and live agent handoffs.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "FastAPI",
+        "Python",
+        "RAG",
+        "Pinecone",
+        "OpenAI API",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.bloort.ai/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/bloort.jpg",
+      video: "",
+    },
+    {
+      title: "Market Map Maker",
+      href: "https://marketmapmaker.app",
+      dates: "Mar 2026 - Present",
+      active: true,
+      description:
+        "Designed and built an AI-powered SaaS platform enabling users to research, categorize, and build interactive industry landscape maps (e.g. Lumascapes). Integrated LLM workflows for automated company enrichment, logo fetching, and smart categorization; built with a responsive canvas and dynamic grid system.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "FastAPI",
+        "PostgreSQL",
+        "Supabase",
+        "OpenAI API",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://marketmapmaker.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/market_map_maker.jpg",
+      video: "",
+    },
+    {
+      title: "Nexus AI",
+      href: "https://nexus-ai-mu-six.vercel.app/",
+      dates: "Jan 2026 - Mar 2026",
+      active: true,
+      description:
+        "Designed and built Nexus AI, an AI Knowledge Workspace and virtual data room for enterprise teams. Upload documents, PDFs, and codebases to index them in a context-ranked vector store, query them through context-aware RAG interfaces with full citations, and convert insights into tasks, workflows, and automated actions. Deployed isolated workspaces, full role-based access controls, and multi-tenant scalability.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Node.js",
+        "Vector DB",
+        "RAG",
+        "LLMs",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nexus-ai-mu-six.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/nexus.jpg",
+      video: "",
+    },
+    {
+      title: "ArchForge",
+      href: "https://archforge.netlify.app/",
+      dates: "Nov 2025 - Jan 2026",
+      active: true,
+      description:
+        "Built an open-source full-stack React 19 + TypeScript + Next.js platform with drag-and-drop interactive canvas (React Flow, Zustand) — designed with SOLID principles, dependency injection, and a reusable component architecture enabling real-time state synchronization and auto-generated documentation across product modules.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "React Flow",
+        "Zustand",
+        "TailwindCSS",
+        "SOLID",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://archforge.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/archforge.jpg",
+      video: "",
+    },
+    {
+      title: "FloodGate",
+      href: "https://floodgate-rl.netlify.app/",
+      dates: "Sep 2025 - Oct 2025",
+      active: true,
+      description:
+        "Published a production-grade Node.js package on npm (floodgate-rl) handling high-concurrency traffic with sliding-window and token-bucket algorithms backed by atomic Redis Lua scripts; applied Strategy and Template Method patterns for pluggable algorithm selection; wrote comprehensive automated test suites following TDD practices.",
+      technologies: [
+        "Node.js",
+        "Redis",
+        "Lua",
+        "TypeScript",
+        "Vitest",
+        "npm",
+        "TDD",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://floodgate-rl.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "npm",
+          href: "https://www.npmjs.com/package/floodgate-rl",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/floodgate.jpg",
+      video: "",
+    },
+    {
       title: "Kollab",
       href: "https://kolllab.netlify.app/",
       dates: "May 2025 - Ongoing",
       active: true,
       description:
-"Kollab is task management built for solopreneurs — powered by AI, focused on action, not admin.",
+        "Kollab is task management built for solopreneurs — powered by AI, focused on action, not admin.",
       technologies: [
         "Next.js",
         "React",
@@ -108,8 +293,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/Kollab-1752842317920.mp4",
+      video: "/Kollab-1752842317920.mp4",
     },
     {
       title: "Smart Recruit",
@@ -117,7 +301,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Online assesment platform for hiring managers to evaluate candidates. Integrated with OpenAI's ChatGPT API to provide real-time generated questions with live code collabaration.",
+        "Online assessment platform for hiring managers to evaluate candidates. Integrated with OpenAI's ChatGPT API to provide real-time generated questions with live code collaboration.",
       technologies: [
         "MongoDB",
         "JavaScript",
@@ -136,16 +320,15 @@ export const DATA = {
         },
       ],
       image: "/image.png",
-      video:
-        "",
+      video: "",
     },
-          {
+    {
       title: "Terminal Styled Portfolio",
       href: "",
       dates: "Jun 2025 - Jun 2025",
       active: true,
       description:
-"Personal portfolio website styled like a terminal, showcasing my skills and projects.",
+        "Personal portfolio website styled like a terminal, showcasing my skills and projects.",
       technologies: [
         "Vite",
         "React",
@@ -160,8 +343,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/Terminal-1752841522827.mp4",
+      video: "/Terminal-1752841522827.mp4",
     },
     {
       title: "Ad Chariot",
@@ -186,10 +368,9 @@ export const DATA = {
         },
       ],
       image: "/image1.png",
-      video:
-        "",
+      video: "",
     },
- {
+    {
       title: "UK Venture",
       href: "https://ukventure.co.in",
       dates: "May 2025 - May 2025",
@@ -207,13 +388,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://ukventure.co,in",
+          href: "https://ukventure.co.in",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "UK Venture-1752841785870.mp4",
+      video: "/UK Venture-1752841785870.mp4",
     },
   ],
   hackathons: [
