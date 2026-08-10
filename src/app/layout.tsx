@@ -19,6 +19,25 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  keywords: [
+    "Prem Hagaragi",
+    "Software Engineer",
+    "Full-Stack Developer",
+    "Product Engineer",
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "Python",
+    "AI",
+    "Microservices",
+    "RAG",
+    "LangChain",
+    "Vector Search",
+    "Portfolio",
+  ],
+  authors: [{ name: DATA.name, url: DATA.url }],
+  creator: DATA.name,
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
@@ -57,7 +76,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
+          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6 tracking-tight",
           fontSans.variable
         )}
       >
