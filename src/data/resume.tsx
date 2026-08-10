@@ -133,7 +133,7 @@ export const DATA = {
       dates: "Nov 2025 - Mar 2026",
       active: true,
       description:
-        "Designed and built Bloort AI, an enterprise-grade SaaS platform enabling agencies to build, customize, and embed custom-branded AI chatbots trained on client websites using Retrieval-Augmented Generation (RAG). Created automated crawling pipelines to ingest site data, custom widget styling controls, multi-language query resolution, and live agent handoffs.",
+        "Designed an enterprise SaaS platform enabling agencies to build, customize, and embed custom-branded AI chatbots trained on client data using RAG; implemented automated crawling pipelines for page ingestion, custom widget styling engines, and live agent handoffs.",
       technologies: [
         "Next.js",
         "React",
@@ -162,7 +162,7 @@ export const DATA = {
       dates: "Mar 2026 - Present",
       active: true,
       description:
-        "Designed and built an AI-powered SaaS platform enabling users to research, categorize, and build interactive industry landscape maps (e.g. Lumascapes). Integrated LLM workflows for automated company enrichment, logo fetching, and smart categorization; built with a responsive canvas and dynamic grid system.",
+        "Built an AI-powered SaaS platform enabling users to research, enrich, and map interactive industry landscapes; integrated LLM workflows for automated company categorization and logo fetching; built with a responsive interactive canvas and dynamic nested grid systems.",
       technologies: [
         "Next.js",
         "React",
@@ -222,7 +222,7 @@ export const DATA = {
       dates: "Jan 2026 - Mar 2026",
       active: true,
       description:
-        "Designed and built Nexus AI, an AI Knowledge Workspace and virtual data room for enterprise teams. Upload documents, PDFs, and codebases to index them in a context-ranked vector store, query them through context-aware RAG interfaces with full citations, and convert insights into tasks, workflows, and automated actions. Deployed isolated workspaces, full role-based access controls, and multi-tenant scalability.",
+        "Designed an enterprise AI Knowledge Workspace and virtual data room with multi-tenant scalability; built context-aware RAG query engines indexing documents into context-ranked vector databases; implemented isolated workspaces, role-based access controls (RBAC), and automated action workflows.",
       technologies: [
         "Next.js",
         "React",
@@ -250,7 +250,7 @@ export const DATA = {
       dates: "Nov 2025 - Jan 2026",
       active: true,
       description:
-        "Built an open-source full-stack React 19 + TypeScript + Next.js platform with drag-and-drop interactive canvas (React Flow, Zustand) — designed with SOLID principles, dependency injection, and a reusable component architecture enabling real-time state synchronization and auto-generated documentation across product modules.",
+        "Created an open-source React 19 canvas platform with interactive drag-and-drop builders; implemented Zustand state machines and React Flow boards designed with SOLID principles and dependency injection; enabled real-time client state synchronization and auto-generated product module documentation.",
       technologies: [
         "Next.js",
         "React",
@@ -276,7 +276,7 @@ export const DATA = {
       dates: "May 2025 - Jun 2025",
       active: true,
       description:
-        "Kollab is task management built for solopreneurs — powered by AI, focused on action, not admin.",
+        "Built a task management SaaS tailored for solopreneurs utilizing the Gemini API for automatic task prioritization and categorization; integrated a serverless Firestore database and secure user authentication; designed a focused, minimalist UX to eliminate administrative overhead.",
       technologies: [
         "Next.js",
         "React",
@@ -301,7 +301,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Online assessment platform for hiring managers to evaluate candidates. Integrated with OpenAI's ChatGPT API to provide real-time generated questions with live code collaboration.",
+        "Created an online candidate assessment platform featuring real-time generated test sheets via OpenAI's ChatGPT API; integrated live, collaborative code editors utilizing WebSocket connections; built comprehensive evaluation dashboards for hiring managers to track developer performance metrics.",
       technologies: [
         "MongoDB",
         "JavaScript",
@@ -328,7 +328,7 @@ export const DATA = {
       dates: "Jun 2025 - Jun 2025",
       active: true,
       description:
-        "Personal portfolio website styled like a terminal, showcasing my skills and projects.",
+        "Designed an interactive personal portfolio website styled as a fully functional command-line terminal; built with a custom shell interpreter in React to parse shell inputs, commands, and options; styled with high-performance CSS animations simulating vintage CRT terminals.",
       technologies: [
         "Vite",
         "React",
@@ -351,7 +351,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "This is one of my freelance project that I worked on, for a client. It is a website for a company that provides services for advertisement and creative solutions for local businesses.",
+        "Delivered a freelance business-to-business website for a creative advertisement solutions company; engineered fluid scroll effects and micro-interactions utilizing Tailwind CSS and MagicUI components; integrated contact forms and automated lead capture pipelines to drive local customer conversions.",
       technologies: [
         "JavaScript",
         "React",
@@ -377,7 +377,7 @@ export const DATA = {
       dates: "May 2025 - May 2025",
       active: true,
       description:
-        "A freelance project developed for UK Venture, a portfolio management company partnered with Axis Securities. Built a responsive web platform showcasing their wealth management services, portfolio strategies, and investment solutions.",
+        "Developed a freelance web portal for UK Venture, a wealth management firm partnered with Axis Securities; built interactive calculators for asset yield predictions and investment growth comparisons; structured responsive showcase layouts to display regulated financial products and portfolio strategies.",
       technologies: [
         "JavaScript",
         "React",
