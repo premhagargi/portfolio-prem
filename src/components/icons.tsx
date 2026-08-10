@@ -233,4 +233,11 @@ export const Icons = {
       />
     </svg>
   ),
+  npm: (props: IconProps) => (
+    <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <rect width="256" height="256" fill="#CB3837" />
+      <path d="M48 80h160v96H120v16H48V80z" fill="#FFF" />
+      <path d="M72 96h16v64H72V96zm40 0h16v64h-16V96zm24 16h16v32h-16v-32zm48-16h16v64h-16V96zm24 16h16v32h-16v-32z" fill="#CB3837" />
+    </svg>
+  ),
 };

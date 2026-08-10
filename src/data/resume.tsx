@@ -186,7 +186,7 @@ export const DATA = {
     },
     {
       title: "FloodGate",
-      href: "https://floodgate-rl.netlify.app/",
+      href: "https://floodgate.site",
       dates: "May 2026 - May 2026",
       active: true,
       description:
@@ -203,12 +203,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://floodgate-rl.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "npm",
-          href: "https://www.npmjs.com/package/floodgate-rl",
+          href: "https://floodgate.site",
           icon: <Icons.globe className="size-3" />,
         },
       ],

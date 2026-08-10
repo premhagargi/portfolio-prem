@@ -87,7 +87,7 @@ export function ProjectCard({
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 text-foreground cursor-pointer hover:opacity-80 transition-opacity"
+                  className="size-5 text-foreground cursor-pointer hover:opacity-80 transition-opacity"
                 >
                   <path
                     d="M5 12V6C5 5.44772 5.44772 5 6 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H12M8.11111 12H12M12 12V15.8889M12 12L5 19"
@@ -109,7 +109,14 @@ export function ProjectCard({
           </Markdown>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex flex-col px-2">
+      <CardContent
+        className={cn(
+          "mt-auto flex flex-col px-2",
+          links && links.filter((link) => link.type !== "Website").length > 0
+            ? "pb-0"
+            : "pb-4"
+        )}
+      >
         {tags && tags.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-1">
             {tags?.map((tag) => (
@@ -125,7 +132,7 @@ export function ProjectCard({
         )}
       </CardContent>
       {links && links.filter((link) => link.type !== "Website").length > 0 && (
-        <CardFooter className="px-2 pb-2">
+        <CardFooter className="px-2 pb-4">
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links
               ?.filter((link) => link.type !== "Website")
