@@ -73,7 +73,7 @@ export const DATA = {
     {
       company: "LTM (LTIMindtree)",
       href: "https://www.ltm.com/",
-      badges: ["Current"],
+      badges: [],
       location: "Remote / Mumbai, IN",
       title: "Senior Full-Stack Engineer",
       logoUrl: "/ltm.png",
