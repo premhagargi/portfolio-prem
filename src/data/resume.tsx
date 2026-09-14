@@ -115,8 +115,8 @@ export const DATA = {
       logoUrl: "/klsgit.png",
       start: "2019",
       end: "2023",
-      description: "CGPA: 8.1/10. Key courses: Data Structures, Algorithms, OOP, Database Management Systems, Software Engineering.",
-      badges: ["CGPA: 8.1/10"],
+      description: "Key courses: Data Structures, Algorithms, OOP, Database Management Systems, Software Engineering.",
+      badges: [],
     },
     {
       school: "LinkedIn Learning",
