@@ -42,7 +42,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/resume", icon: FileText, label: "Resume" },
-    { href: "/#services", icon: BriefcaseBusiness, label: "Services" },
+    { href: "/services", icon: BriefcaseBusiness, label: "Services" },
   ],
   contact: {
     email: "premhagaragi@gmail.com",
@@ -71,14 +71,26 @@ export const DATA = {
 
   work: [
     {
+      company: "LTM (LTIMindtree)",
+      href: "https://www.ltm.com/",
+      badges: ["Current"],
+      location: "Remote / Mumbai, IN",
+      title: "Senior Full-Stack Engineer",
+      logoUrl: "/ltm.svg",
+      start: "September 2026",
+      end: undefined,
+      description:
+        "Working as a Senior Full-Stack Engineer building enterprise-grade distributed systems and cloud-native solutions. Developing microservices in C# / .NET with event-driven messaging via Apache Kafka. Integrating Azure AI Search for intelligent document retrieval pipelines. Containerising and orchestrating services with Docker. Collaborating cross-functionally to drive technical design, code quality, and delivery across production environments.",
+    },
+    {
       company: "MARQAIT AI",
       href: "https://marqait.com/",
       badges: [],
       location: "Remote / Bengaluru, IN",
       title: "Software Engineer",
       logoUrl: "/atomic.png",
-      start: "April 2026",
-      end: "Present",
+      start: "June 2026",
+      end: "July 2026",
       description:
         "Architected a microservice-based SaaS platform end-to-end following SOA and domain-driven design principles. Developed backend services in Node.js/TypeScript (NestJS, Express) and Python (FastAPI) with RESTful APIs, integrated with PostgreSQL (Prisma ORM), MySQL, and Redis. Engineered a shared React 19 + TypeScript component library (Next.js App Router) consumed across multiple product surfaces using SOLID principles and patterns (Strategy, Observer, Factory). Practiced test-driven development using Vitest and React Testing Library (85%+ coverage). Partnered with UX designers and PMs to translate requirements into production UI.",
     },
@@ -184,6 +196,31 @@ export const DATA = {
       ],
       image: "/market_map_maker.png",
       video: "",
+    },
+    {
+      title: "Hookana",
+      href: "https://hookana.com",
+      dates: "Aug 2026 - Sep 2026",
+      active: true,
+      description:
+        "Contributed to building the marketing website for Hookana — an AI-powered creative agency platform that studies ad account winners, pitches concepts, and produces 30+ fresh ad creatives a month without requiring a brief. Built the landing page, interactive portfolio showcases, and responsive UI.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hookana.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/hookana.png",
+      video: "",
+      imageClassName: "object-cover object-top",
     },
     {
       title: "FloodGate",

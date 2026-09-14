@@ -25,15 +25,10 @@ export function ServiceCard({
     <motion.div
       whileHover={{ y: -4 }}
       transition={{ duration: 0.2, ease: "easeOut" }}
-      className={`
-        group relative flex flex-col gap-4 rounded-2xl border border-border/50 bg-card/60 p-6
-        backdrop-blur-sm
-        hover:border-primary/30 hover:shadow-[0_0_30px_-5px_hsl(var(--primary)/0.2)]
-        transition-shadow duration-300
-      `}
+      className="group relative flex h-full flex-col gap-4 rounded-2xl border border-border/50 bg-card/60 p-6 backdrop-blur-sm hover:border-primary/30 hover:shadow-[0_0_30px_-5px_hsl(var(--primary)/0.2)] transition-shadow duration-300"
     >
       {/* Tech logos strip */}
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="flex flex-wrap items-center gap-2">
         {techLogos.map(({ icon: Icon, label }) => (
           <div
             key={label}
@@ -56,7 +51,7 @@ export function ServiceCard({
       </p>
 
       {/* Deliverables */}
-      <ul className="mt-auto flex flex-col gap-2">
+      <ul className="flex flex-col gap-2 mt-auto pt-2">
         {deliverables.map((item) => (
           <li
             key={item}
