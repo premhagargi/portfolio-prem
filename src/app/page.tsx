@@ -2,6 +2,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
+import { ServicesSection } from "@/components/services-section";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
@@ -150,6 +151,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <ServicesSection />
 
       <section id="contact">
   <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
