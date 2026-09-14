@@ -76,7 +76,7 @@ export const DATA = {
       badges: ["Current"],
       location: "Remote / Mumbai, IN",
       title: "Senior Full-Stack Engineer",
-      logoUrl: "/ltm.svg",
+      logoUrl: "/ltm.png",
       start: "September 2026",
       end: undefined,
       description:
