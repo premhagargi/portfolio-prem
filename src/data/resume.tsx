@@ -220,7 +220,7 @@ export const DATA = {
       ],
       image: "/hookana.png",
       video: "",
-      imageClassName: "object-cover object-top",
+      imageClassName: "object-contain object-center p-2 bg-muted/30",
     },
     {
       title: "FloodGate",
