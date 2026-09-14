@@ -1,20 +1,14 @@
 "use client";
 
 import BlurFade from "@/components/magicui/blur-fade";
+import { Icons } from "@/components/icons";
 import { ServiceCard } from "@/components/service-card";
-import {
-  Bot,
-  Code2,
-  Globe,
-  LayoutDashboard,
-} from "lucide-react";
 import Link from "next/link";
 
 const BLUR_FADE_DELAY = 0.04;
 
 const SERVICES = [
   {
-    icon: Code2,
     title: "Full-Stack Web Development",
     description:
       "Building scalable, performant full-stack web applications using React, Next.js, Node.js, and modern databases. From pixel-perfect UIs to resilient server-side architectures.",
@@ -23,10 +17,15 @@ const SERVICES = [
       "Responsive Modern UI/UX",
       "Database Modeling & Optimization",
     ],
-    accentColor: "from-blue-500/25 to-cyan-500/15",
+    techLogos: [
+      { icon: Icons.react, label: "React" },
+      { icon: Icons.nextjs, label: "Next.js" },
+      { icon: Icons.nodejs, label: "Node.js" },
+      { icon: Icons.postgresql, label: "PostgreSQL" },
+      { icon: Icons.mongodb, label: "MongoDB" },
+    ],
   },
   {
-    icon: Bot,
     title: "AI Integration & Agentic Systems",
     description:
       "Integrating LLM APIs, Gemini/Claude workflows, and custom vector databases to build AI-powered features, chatbots, and autonomous agent pipelines that deliver real business value.",
@@ -35,10 +34,14 @@ const SERVICES = [
       "Vector DB Integration (Pinecone)",
       "Custom AI Chatbot & Agents",
     ],
-    accentColor: "from-violet-500/25 to-purple-500/15",
+    techLogos: [
+      { icon: Icons.gemini, label: "Google Gemini" },
+      { icon: Icons.anthropic, label: "Anthropic / Claude" },
+      { icon: Icons.openai, label: "OpenAI" },
+      { icon: Icons.pinecone, label: "Pinecone" },
+    ],
   },
   {
-    icon: LayoutDashboard,
     title: "Custom Interactive Platforms",
     description:
       "Developing enterprise web apps, PDF/document generation pipelines, and dynamic dashboard architectures — built for performance, scale, and rich user experiences.",
@@ -47,10 +50,14 @@ const SERVICES = [
       "Dynamic Dashboard Systems",
       "Performant & Accessible UI",
     ],
-    accentColor: "from-emerald-500/25 to-teal-500/15",
+    techLogos: [
+      { icon: Icons.typescript, label: "TypeScript" },
+      { icon: Icons.react, label: "React" },
+      { icon: Icons.supabase, label: "Supabase" },
+      { icon: Icons.docker, label: "Docker" },
+    ],
   },
   {
-    icon: Globe,
     title: "SEO & Web Optimization",
     description:
       "Implementing structured schema markup, Core Web Vitals optimization, and modern SEO best practices to drive high search visibility and measurable organic growth.",
@@ -59,7 +66,11 @@ const SERVICES = [
       "Core Web Vitals & Performance",
       "On-Page SEO Best Practices",
     ],
-    accentColor: "from-orange-500/25 to-amber-500/15",
+    techLogos: [
+      { icon: Icons.google, label: "Google Search" },
+      { icon: Icons.lighthouse, label: "Lighthouse" },
+      { icon: Icons.nextjs, label: "Next.js" },
+    ],
   },
 ];
 
@@ -85,13 +96,16 @@ export function ServicesSection() {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto">
           {SERVICES.map((service, id) => (
-            <BlurFade key={service.title} delay={BLUR_FADE_DELAY * 2 + id * 0.08} inView>
+            <BlurFade
+              key={service.title}
+              delay={BLUR_FADE_DELAY * 2 + id * 0.08}
+              inView
+            >
               <ServiceCard
-                icon={service.icon}
+                techLogos={service.techLogos}
                 title={service.title}
                 description={service.description}
                 deliverables={service.deliverables}
-                accentColor={service.accentColor}
               />
             </BlurFade>
           ))}

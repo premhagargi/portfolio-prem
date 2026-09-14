@@ -1,22 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { LucideIcon } from "lucide-react";
+import { IconProps } from "@/components/icons";
+
+export interface TechLogo {
+  icon: (props: IconProps) => JSX.Element;
+  label: string;
+}
 
 interface ServiceCardProps {
-  icon: LucideIcon;
+  techLogos: TechLogo[];
   title: string;
   description: string;
   deliverables: string[];
-  accentColor?: string;
 }
 
 export function ServiceCard({
-  icon: Icon,
+  techLogos,
   title,
   description,
   deliverables,
-  accentColor = "from-blue-500/20 to-purple-500/20",
 }: ServiceCardProps) {
   return (
     <motion.div
@@ -29,15 +32,17 @@ export function ServiceCard({
         transition-shadow duration-300
       `}
     >
-      {/* Icon badge */}
-      <div
-        className={`
-          inline-flex w-fit items-center justify-center rounded-xl
-          bg-gradient-to-br ${accentColor}
-          p-3 ring-1 ring-border/40
-        `}
-      >
-        <Icon className="size-5 text-foreground" strokeWidth={1.75} />
+      {/* Tech logos strip */}
+      <div className="flex flex-wrap items-center gap-3">
+        {techLogos.map(({ icon: Icon, label }) => (
+          <div
+            key={label}
+            title={label}
+            className="flex items-center justify-center rounded-lg bg-muted/60 p-1.5 ring-1 ring-border/30"
+          >
+            <Icon className="size-5 text-foreground/80" />
+          </div>
+        ))}
       </div>
 
       {/* Title */}
@@ -53,7 +58,10 @@ export function ServiceCard({
       {/* Deliverables */}
       <ul className="mt-auto flex flex-col gap-2">
         {deliverables.map((item) => (
-          <li key={item} className="flex items-center gap-2 text-sm text-muted-foreground">
+          <li
+            key={item}
+            className="flex items-center gap-2 text-sm text-muted-foreground"
+          >
             <span className="size-1.5 shrink-0 rounded-full bg-primary/70" />
             {item}
           </li>
