@@ -88,7 +88,7 @@ export const DATA = {
       badges: [],
       location: "Remote / Bengaluru, IN",
       title: "Software Engineer",
-      logoUrl: "/atomic.png",
+      logoUrl: "/marqait.png",
       start: "June 2026",
       end: "July 2026",
       description:
