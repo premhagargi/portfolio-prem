@@ -355,6 +355,7 @@ export const DATA = {
       image: "/image.png",
       video: "",
     },
+    /* Terminal Styled Portfolio — commented out
     {
       title: "Terminal Styled Portfolio",
       href: "",
@@ -378,6 +379,7 @@ export const DATA = {
       image: "",
       video: "/Terminal-1752841522827.mp4",
     },
+    */
     {
       title: "Ad Chariot",
       href: "https://adchariot.in/",
